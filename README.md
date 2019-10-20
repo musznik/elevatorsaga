@@ -1,6 +1,20 @@
-Elevator Saga
+Elevator Saga M1
 ===================
 The elevator programming game
+
+Now you can call own function from the game
+```
+{
+    my_custom_function : function(elevators){
+        return elevators;
+    },
+    init: function(elevators, floors) {
+        ...
+        var my_object = window.game.my_custom_function(elevators);
+    });
+    ...
+```
+
 
 [Play it now!](http://play.elevatorsaga.com/)
 
